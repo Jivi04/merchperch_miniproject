@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+.submit{
+background-color:beige;
+font-size:15px;
+font-family:arial black;
+}
+.input{
+font-family:lucida;
+font-size:15px;
+}
+.label{
+font-size:15px;
+font-family:arial black;
+}
+</style>
+<script>
+function myFunction() 
+{ alert("opening your default mail application");}
+</script>
+</head>
+<body>
+<h1><u>FEEDBACK FORM</u></h1>
+<form action="mailto:jivikaambade05@gmail.com" method="post" enctype="text/plain">
+<label class="label">Your name:</label>
+<input type ="text" name="yourName" class="input"><br><br>
+<label class="label">Your email:</label>
+<input type = "email" name="yourEmail" class="input"><br><br>
+<label class="label">Your message:</label><br>
+<textarea name="yourMessage" rows=" 10" cols=" 30" class="input">please put your feedback if any.</textarea>
+<br><br>
+<input type ="submit" class="submit" onclick="myFunction()">
+
+</body>
+</html>

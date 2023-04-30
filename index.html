@@ -1,0 +1,233 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>MerchPerch</title>
+<style>
+        body{
+            text-align:center;
+            background-color: #FFABAB;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        hr{
+            width: 10%;
+            border-style: none none;
+            border-top-style: dotted;
+            border-color: #9D3C72;
+            border-width:5px ;
+            margin: 70px auto;
+            background-color: transparent;
+        }
+
+        .image{
+            height: 12%;
+            width: 12%;
+            border-radius: 100%;
+            position: relative;
+            margin-right: 3%;
+            margin-left: 3%;
+        }
+
+        #navbar-brand{
+          padding-right: 15%;
+          font-size: 140%;
+        }
+
+        .container-fluid{
+            padding: 1% 0 2%; 
+            background-color: #D14D72;
+            margin-bottom: 5%;
+            padding-right: 58%;
+          }
+
+        .link-img{
+          height: 40%;
+          width: 30%;
+        }
+
+        .nav-item{
+          padding: 0 1%;
+        }
+        
+        #welcome{
+          font-size: 200%;
+        }
+
+        .para1{
+          font-size:180%;
+        }
+
+        @media (max-width:800px) {
+          .image{
+            height: 10%;
+            width: 10%;
+            border-radius: 100%;
+            position: relative;
+            margin-left: 3%;
+          }
+            #navbar-brand{
+            padding-right: 35%;
+            margin-right: 15%;
+            font-size: 120%;
+          }
+
+            .container-fluid{
+            padding: 3% 0 4%;
+            margin-bottom: 5%;
+          }
+
+          .link-img{
+          height: 30%;
+          width: 30%;
+          }
+
+          .navbar{
+            padding-right: 5%;
+          }
+        }
+
+
+</style> 
+
+<script>
+function myFandom()
+{alert("opening the fandom's merchandise page");}
+</script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <img src ="website logo.jpg"  height="200" width="200"  class="image">
+        <a href="" id="navbar-brand"class="navbar-brand">MerchPerch</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#bts">BTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hp">HARRY POTTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#friends">FRIENDS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#marvel">MARVEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bp">BLACKPINK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mg">MEAN GIRLS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#feedback">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+</div>   
+
+<br>
+<section>
+  <p id="welcome"> 
+    WELCOME ! 
+  </p>
+  <br>
+
+  <p class="para1">
+    Here , at MerchPerch <br>
+    you can find the merchandise of various of  fandoms .
+  </p>
+</section>
+
+<hr>
+
+<section>
+  <p class="para1">Click on the logo's of your favourite fandoms to purchase</p>
+
+  <hr>
+
+  <a href = "page 4 bts.html" onclick="myFandom()" id="bts">
+  <img src="images/BTS/logo.jpg" height =" 300"  width=" 300" class="link-img">
+  </a>
+
+  <hr>
+
+  <a href ="page 6 hp.html" onclick="myFandom()" id="hp">
+  <img src="images/hp/logo.jpg" height="200" width ="300" class="link-img">
+  </a>
+
+  <hr>
+
+  <a href  ="page 5 friends.html" onclick="myFandom()" id="friends">
+  <img src="images/friends/logo.png"  height="200" width ="400" class="link-img">
+  </a>
+
+  <hr>
+
+  <a href ="page 7 marvel.html" onclick="myFandom()" id="marvel">
+  <img src="images/marvel/logo.png"  height=" 200" width="300" class="link-img">
+  </a>
+
+  <hr>
+
+  <a href ="page 3 bp.html" onclick="myFandom()" id="bp">
+  <img src ="images\blackpink\logo.png"  height="200" width="400" class="link-img"> 
+  </a>
+
+  <hr>
+
+  <a href="page 8 mg.html" onclick="myFandom()" id="mg">
+  <img src="images/mg/logo.jpg" height="300" width="300"  class="link-img">
+  </a>
+</section>
+
+<hr>
+
+<section>
+  <p id="contact">Click on the following button if you have any queries.</p>
+
+  <button >
+  <a href ="contact.html" target="_self">contact me</a>
+  </button>
+
+  <hr>
+
+  <p id="feedback">Please fill the feedback form by <br>
+  clicking the following button<br>
+  to help us improve.
+  </p>
+  <button>
+  <a href ="fb form.html" target="_self">feedback form</a>
+  </button>
+
+  <hr>
+
+  <p id="about">Click on the following link to <br>
+  know more about us.
+  </p>
+  <a href="about.html" target="_self">About Us</a>
+</section>
+
+<hr>
+<section>
+  <p>©️ MerchPerch</p>
+</section>
+
+</body>
+</html>

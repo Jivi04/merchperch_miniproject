@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+p{
+font-size:20px;
+font-family:trebuchet ms;
+}
+.label{
+font-size:15px;
+font-family:arial black;
+}
+.input{
+font-size:15px;
+font-family:rockwell;
+}
+.submit{
+font-size:15px;
+font-family:book antiqua;
+}
+h3{
+font-size:30px;}
+</style>
+
+<script>
+function myFunction() 
+{ alert("opening your default mail application");}
+</script>
+</head>
+<body>
+<p align="center">
+If you have any questions , fill the below form.
+<form method ="post" action="mailto:jivikaambade05@gmail.com">
+
+<label class="label">Your name:</label>
+<br>
+<input type="text" name="yourname" class="input"class="input">
+<br>
+<label class="label">Your email:</label>
+<br>
+<input type="email" name="youremail" class="input">
+<br>
+<label class="label">Your doubt:</label>
+<br>
+<textarea row="10" column="10" class="input">type your questions in here</textarea>
+<br><br>
+<input type="submit" value="submit"  class="submit" onclick="myFunction()">
+</form>
+<h3>thank you</h3>
+</p>
+</body>
+</html>
